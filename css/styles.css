@@ -47,6 +47,7 @@ body {
 .navbar-inverse .navbar-nav>li>a {
      color: #fff;
      font-size: 16px;
+     font-weight: 700;
      /*-webkit-text-stroke: 1px black;*/
      text-shadow:
          0px 2px 0 #000,

@@ -1,5 +1,6 @@
 body {
      font-weight: 700;
+     font-size: 18px;
 }
 
 .body-background-blue {
@@ -8,6 +9,10 @@ body {
 
 .body-background-brown {
      background-color: #F2A81D;
+}
+
+.body-background-dark-blue {
+     background-color: #6F8CA6;
 }
 
 /*---------------------------------------*/
@@ -25,7 +30,6 @@ body {
          min-height: 100%;
      }
 }
-
 
 .navbar-inverse .navbar-brand {
     color: #fff;
@@ -73,7 +77,6 @@ body {
 
 /*---------------------------------------*/
 
-
 /* Text Higlight */
 
 .white-highlight {
@@ -90,7 +93,7 @@ body {
 
 }
 
-.heading1-white-highlight {
+.heading-white-highlight {
      color: #fff;
      font-weight: 800;
      -webkit-text-stroke: 1px black;
@@ -102,40 +105,30 @@ body {
           1px 3px 0px #000;
 }
 
-.about-paragraph-highlight {
-    color: #fff;
-    font-size: 18px;
-}
-
-.about-definition-highlight, .about-contact, .about-committee {
-    color: #fff;
-    font-size: 42px;
-    font-weight: 600;
-    text-shadow:
-         0px 2px 0 #000,
-         0px 3px 0 #000,
-         0px 0px 0 #000,
-         1px 0px 0 #000,
-         1px 3px 0px #000;
-}
-
-.about-committee {
-    font-size: 32px;
-}
-
-.about-quote-highlight {
+.definition-white-highlight {
      color: #fff;
      font-size: 32px;
-     font-style: italic;
+     font-weight: 800;
+     -webkit-text-stroke: 1px black;
+     text-shadow:
+          0px 2px 0 #000,
+          0px 3px 0 #000,
+          0px 0px 0 #000,
+          1px 0px 0 #000,
+          1px 3px 0px #000;
 }
 
-.text-indent {
-     text-indent: 10px;
+.paragraph-white-hightlight {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;
 }
 
-blockquote {
-     border-left: none;
-}
 
 .about-well {
     min-height: 20px;
@@ -150,20 +143,49 @@ blockquote {
 }
 
 
+.about-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;
+}
 /*---------------------------------------*/
 
 /* Buttons */
 
 .btn {
      font-weight: 600;
+     background-color: #8C493A;
+     color: #fff;
+     text-shadow:
+          0px 2px 0 #000,
+          0px 3px 0 #000,
+          0px 0px 0 #000,
+          1px 0px 0 #000,
+          1px 3px 0px #000;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #adadad;
+    text-shadow: none;
 }
 
 .intro-btn {
      margin: 20px;
 }
 
-/*---------------------------------------*/
+#planningBtn, #implementBtn {
+     margin-right: 30px;
+}
 
+
+/*---------------------------------------*/
 
 /* Footer Contact Info Highlight */
 

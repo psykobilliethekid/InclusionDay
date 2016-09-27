@@ -1,5 +1,4 @@
 body {
-/*      font-weight: 700; */
      font-size: 18px;
 }
 
@@ -7,12 +6,16 @@ body {
      background-color: #B0D1D9;
 }
 
-.body-background-brown {
+.body-background-light-orange {
      background-color: #F2A81D;
 }
 
 .body-background-dark-blue {
      background-color: #6F8CA6;
+}
+
+.body-background-yellow {
+     background-color: #F2B544;
 }
 
 /*---------------------------------------*/
@@ -72,9 +75,11 @@ body {
      padding: 10px 15px;
 }
 
-/* .jumbotron p {
+/*
+.jumbotron p {
      font-weight: 700;
-} */
+}
+*/
 
 /*---------------------------------------*/
 
@@ -119,7 +124,7 @@ body {
           1px 3px 0px #000;
 }
 
-.paragraph-white-hightlight {
+.paragraph-white-highlight {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
@@ -130,15 +135,37 @@ body {
           1px 1px 0 #000;
 }
 
+.list-white-highlight {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;
+     padding-bottom: 10px;
+}
+
+.about-text-color, .about-footer {
+     color: #fff;
+     font-weight: 600;
+     text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+          1px 1px 0 #000;
+}
 
 .about-well {
     min-height: 20px;
-    color: #fff;
+    /* color: #000; */
+    font-size: 16px;
     padding: 19px;
     margin-bottom: 20px;
     background-color: transparent;
     border: 4px solid #fff;
-    border-radius: 4px;
+    border-radius: 15px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
@@ -210,6 +237,23 @@ body {
           1px 0px 0 #000,
           1px 3px 0px #000;
 }
+
+.about-footer li a {
+     color: #fff;
+}
+
+.about-footer li a:hover {
+     color: #fff;
+     text-decoration: none;
+     text-shadow:
+          0px 2px 0 #000,
+          0px 3px 0 #000,
+          0px 0px 0 #000,
+          1px 0px 0 #000,
+          1px 3px 0px #000;
+     
+}
+
 /*---------------------------------------*/
 
 /* Code From CSS-Tricks:
